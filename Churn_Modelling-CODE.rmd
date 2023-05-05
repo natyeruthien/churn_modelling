@@ -1,5 +1,5 @@
 ---
-title: "Churn_Mondelling"
+title: "Churn_Modelling"
 author:
   - Elena Patsalou
   - Natalia Korai
