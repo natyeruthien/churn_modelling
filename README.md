@@ -1,5 +1,5 @@
 # churn_modelling
-Classification problem; the goal is finding the optimal method to classify whether the customer of a bank will churn.
+Classification problem; the goal is finding the optimal method to classify whether the customer of a bank will churn, by using R.
 
 This statistical analysis report focuses on the churn modeling dataset from Kaggle, which contains information of 10,000 customers and 14 variables related to their banking behavior. The research objectives include exploratory analysis, graphical representations, and predictive modeling techniques such as logistic regression, Naive Bayes, LDA/QDA, KNN, and Poisson regression, along with the use of LASSO and PCA techniques for feature selection. The report also employs resampling techniques to balance binary variables for more accurate modeling.
 
