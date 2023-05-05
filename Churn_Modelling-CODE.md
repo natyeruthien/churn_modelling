@@ -627,7 +627,7 @@ names(df)
     ##  [5] "NumOfProducts"   "HasCrCard"       "IsActiveMember"  "EstimatedSalary"
     ##  [9] "Exited"          "France"          "Germany"         "Female"
 
-## \## 2.1.4.3 Comparison between Two Categorical Variables
+## 2.1.4.3 Comparison between Two Categorical Variables
 
 ``` r
 # visualise the tables (counts of each variable), to understand in a better way than tables
@@ -684,7 +684,7 @@ for (i in 1:7){
 - Germany vs:
   - Female: The most German customers are males.
 
-## \## 2.1.4.4 Correlation between variables
+## 2.1.4.4 Correlation between variables
 
 ``` r
 # Convert discrete variables from characters to integers
