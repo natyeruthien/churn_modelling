@@ -1,6 +1,24 @@
-# churn_modelling
-Classification problem; the goal is finding the optimal method to classify whether the customer of a bank will churn, by using R.
+# Churn Modeling for Bank Customers
 
-This statistical analysis report focuses on the churn modeling dataset from Kaggle, which contains information of 10,000 customers and 14 variables related to their banking behavior. The research objectives include exploratory analysis, graphical representations, and predictive modeling techniques such as logistic regression, Naive Bayes, LDA/QDA, KNN, and Poisson regression, along with the use of LASSO and PCA techniques for feature selection. The report also employs resampling techniques to balance binary variables for more accurate modeling.
+## Project Overview
+This project aims to identify the optimal method for predicting customer churn in a bank using various statistical and machine learning techniques in R. The dataset from Kaggle includes 10,000 customers and 14 variables related to banking behavior.
 
-After comparing the performance of each model using appropriate evaluation metrics, we found that the Naive Bayes classifier with kernel density estimation applied to the oversampled data produced the most accurate predictions. This approach utilizes the Bernoulli distribution to model binary predictor variables and kernel density estimation to model the conditional probability density functions of continuous predictor variables. By assuming conditional independence of the predictor variables given the class label, Naive Bayes with kernel density estimation is able to efficiently estimate the probabilities of each class label given the predictor variables. The oversampling technique was applied to balance the imbalanced dataset, and the use of Naive Bayes with kernel density estimation on the oversampled data resulted in the best classification performance.
+### Research Objectives
+- Conduct exploratory analysis and graphical representation of the data.
+- Apply predictive modeling techniques including logistic regression, Naive Bayes, LDA/QDA, KNN, and Poisson regression.
+- Utilize LASSO and PCA for feature selection.
+- Employ resampling techniques to balance binary variables for more accurate modeling.
+
+## Dataset
+Data sourced from [Kaggle's Churn Modeling Dataset](https://www.kaggle.com/datasets/).
+
+## Methodology
+- **Data Preprocessing**: Standardizing features, handling missing values, and balancing the dataset through oversampling.
+- **Model Development**: Implementing various classification models and feature selection techniques.
+- **Evaluation**: Comparing model performance using appropriate evaluation metrics.
+
+## Results
+The Naive Bayes classifier with kernel density estimation, applied to the oversampled data, yielded the most accurate predictions. This approach effectively models binary predictor variables and continuous predictor variables' conditional probability density functions. The oversampling technique helped balance the dataset, enhancing the model's classification performance.
+
+## Tools and Technologies
+- **Language**: R
